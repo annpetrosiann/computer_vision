@@ -2,12 +2,12 @@ import cv2
 import numpy as np
 
 # Load images
-selfie1 = cv2.imread('selfie1.jpg')
-selfie2 = cv2.imread('selfie2.jpg')
-selfie3 = cv2.imread('selfie3.jpg')
-filter1 = cv2.imread('dog2.png', cv2.IMREAD_UNCHANGED)
-filter2 = cv2.imread('rainbow.png', cv2.IMREAD_UNCHANGED)
-filter3 = cv2.imread('mustache.png', cv2.IMREAD_UNCHANGED)
+selfie1 = cv2.imread('images/selfie1.jpg')
+selfie2 = cv2.imread('images/selfie2.jpg')
+selfie3 = cv2.imread('images/selfie3.jpg')
+filter1 = cv2.imread('images/dog2.png', cv2.IMREAD_UNCHANGED)
+filter2 = cv2.imread('images/rainbow.png', cv2.IMREAD_UNCHANGED)
+filter3 = cv2.imread('images/mustache.png', cv2.IMREAD_UNCHANGED)
 # cv2.IMREAD_UNCHANGED loads the image including its alpha channel (transparency) if it exists.
 
 # Check if the images are loaded correctly
